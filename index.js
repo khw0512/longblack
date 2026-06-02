@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 
-const TEAMS_WEBHOOK_URL = process.env.TEAMS_WEBHOOK_URL;
+const TEAMS_WEBHOOK_URL = 'https://defaulta98b16d5c47d40dc916b58a491adc7.0d.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/a19d3fd2dadb4e11ba3e56788a3a8889/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xA2aYIfN_xV-ORnHi4RbMYGv7BW5ZdUVmk5JW8mmXOo';
 const LONGBLACK_URL = 'https://www.longblack.co';
 
 async function getLongBlackArticle() {
